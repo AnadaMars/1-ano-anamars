@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root{
+    /*Fontes*/
+        --titulo: 'Parisienne', cursive;
+        --subtitulo: 'Indie Flower', cursive;
+        --corpo: 'Amatic SC', cursive;
+    
+    /*Cores*/
+        --cortitulo: rgb(214, 175, 75);
+        --corsubtitulo: rgb(182, 182, 182);
+        --cortexto:rgb(52, 52, 52);
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 30px;
+    background-image: url('images/wallpaper.jpg');
+}
+
+header h1{
+    font-family: var(--titulo);
+    color: var(--cortitulo);
+    font-size: 5em;
+    text-align: center;
+}
+
+.subtitulo{
+    font-family: var(--subtitulo);
+    color: var(--corsubtitulo);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-left: 110px;
+    text-align: center;
+    margin-top: -32px;
+}
+
+h2{
+    font-family: var(--corpo);
+    color: var(--cortitulo);
+    letter-spacing: 0.3em;
+    padding: 45px 0 0 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    max-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+}
+
+.content {
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 6px 7px 11px 0px rgb(0 0 0 / 39%);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    flex-direction: column;
+    padding: 10px 15px 8px 15px;
+    
+}
+
+.image1 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/dm.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/meme-cirilo.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image3 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/counting-stars.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image4 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/comptine-d\'un-autre-eté.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image5 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/panqueca.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image6 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/livro-emily.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image7 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/cod.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image8 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/moba-morte.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image9 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/amphibia.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image10 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/dia-maitezinha.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image11 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/thath-doc-amazon.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image12 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/sobrance.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image13 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/declaracao-banheiro.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image14 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/chaves-star-wars.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image15 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/aliança.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image16 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/aniversário.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image17 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/every-shade-of-blue.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image18 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/friends.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image19 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/sonho-bebe.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image20 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/casamento1.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image21 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/bolo-woody.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.legrande {
+    font-size: 0.8em;
+}
+
+.legrande2 {
+    font-size: 0.7em;
+}
+
+.risco {
+    text-decoration: line-through;
+}
+
+.image22 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/pao-low-carb.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image23 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/venucelly.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image24 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/take-my-hand.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image25 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/casamento2.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image26 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/eclipse.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image27 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/batata-frita.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image28 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/gatinho.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image29 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/lontrinhas.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image30 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/despertador.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image31 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/perfume.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image32 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/kirinha.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image33 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/hs.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image34 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/camponesa.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image35 {
+    width: 200px;
+    height: 200px;
+    background-image: url('');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image36 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/marcelly-carregador.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image37 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/hidro.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image38 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/ana-oliveira.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image39 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/pezinho.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image40 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/bike.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image41 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/kira-presa.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image42 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/yllecullen.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image43 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/pernocas.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image44 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/preto-e-branco.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image45 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/ana-quebrar-códigos.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image46 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/blusa.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image47 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/doce.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+.image48 {
+    width: 200px;
+    height: 200px;
+    background-image: url('images/galomeiras.jpg');
+    background-size: cover;
+    color: transparent;
+    text-align: center;   
+}
+
+/*.image1:hover {
+    opacity: 0.3;
+    color: white;
+    font-weight: bold;
+}*/
+
+
+.content span {
+    width: 100%;
+    margin: 20px 0;
+    font-family: var(--subtitulo);
+    color: var(--cortexto);
+    font-weight: 900;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 268px;
+    }
+}
+
